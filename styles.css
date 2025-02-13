@@ -118,5 +118,55 @@ h1{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 230%;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #1877f2; /* Màu xanh giống Facebook */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo h1 {
+    font-size: 24px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu input {
+    padding: 5px;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
 
   
